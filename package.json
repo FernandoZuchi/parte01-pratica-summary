@@ -13,6 +13,8 @@
     "vite": "^7.0.0"
   },
   "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "axios": "^1.10.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
