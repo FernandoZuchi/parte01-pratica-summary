@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importação de biblioteca de ícones -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    
+    <!-- Importação de estilos -->
+    <link rel="stylesheet" href="/web/styles/base.css" />
+    <link rel="stylesheet" href="/web/styles/form.css">
+    <link rel="stylesheet" href="/web/styles/app.css" />
+
+    <title>Codi Shorts</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="/logo.svg" alt="logo roxa" />
+      <h1>Codi Shorts</h1>
+
+      <form id="form">
+        <input type="url" id="url" placeholder="Enter a YouTube URL" required />
+        <button title="Resumir com IA">
+          <i class="ph ph-arrow-bend-up-right"></i>
+        </button>
+      </form>
+
+      <h2>Resumo</h2>
+      <p id="content" class="placeholder">Cole um link de Youtube Shorts para gerar um resumo inteligente com IA</p>
+    </div>
+    <script type="module" src="/web/main.js"></script>
+
+    <!-- dontpad.com/mentoria0107 -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "codi-shorts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node --watch server/index.js"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
